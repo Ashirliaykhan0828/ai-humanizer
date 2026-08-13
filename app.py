@@ -31,7 +31,7 @@ with col1:
     user_input = st.text_area(
         "Zaman kodlu xam mətni bura yapışdırın:", 
         height=450, 
-        placeholder="[00:00] Şü anda, ılıksınız. Bunu fark etmiyor olabilirsiniz..."
+        placeholder="[00:00] Şu anda, ılıksınız. Bunu fark etmiyor olabilirsiniz..."
     )
     submit_button = st.button("✨ Revizə Et", use_container_width=True)
 
@@ -57,7 +57,7 @@ with col2:
                                 "content": user_input,
                             }
                         ],
-                       model="llama-3.1-70b-versatile",
+                       model="openai/gpt-oss-120b",
                     )
                     
                     # İkinci versiya - Səmimi ton
@@ -72,7 +72,7 @@ with col2:
                                 "content": user_input,
                             }
                         ],
-                        model="llama-3.1-70b-versatile",
+                        model="openai/gpt-oss-120b",
                     )
                     
                     with tab1:
