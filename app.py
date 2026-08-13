@@ -57,7 +57,7 @@ with col2:
                                 "content": user_input,
                             }
                         ],
-                        model="llama3-70b-8192",
+                       model="llama-3.1-70b-versatile",
                     )
                     
                     # İkinci versiya - Səmimi ton
@@ -72,7 +72,7 @@ with col2:
                                 "content": user_input,
                             }
                         ],
-                        model="llama3-70b-8192",
+                        model="llama-3.1-70b-versatile",
                     )
                     
                     with tab1:
